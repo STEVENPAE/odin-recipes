@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    max-inline-size: 800px;
+    margin-inline: auto;
+}
+
+.recipes {
+    background-color: rgb(230, 230, 230);
+    border: 5px double rgb(159, 95, 43);
+    font-size: 20px;
+    padding-inline: 40px;
+    padding-block: 30px;
+}
+
+li {
+    padding: 10px;
+}
+
+
+.button {
+    background-color: rgb(139, 25, 25);
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 15px;
+    
+}
+
+.button:hover {
+    background-color:blueviolet;
+}
+
+.button:active {
+    background-color: blue;
+}
